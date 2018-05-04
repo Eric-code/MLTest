@@ -56,7 +56,7 @@ if __name__ == '__main__':
     X = classify(x)
     print(len(X))
     print(len(y))
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1/2., random_state=8)  # 分割训练集和测试集
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1/5., random_state=8)  # 分割训练集和测试集
     estimators = {}
 
 # criterion: 分支的标准(gini/entropy)
